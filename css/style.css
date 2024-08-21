@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Global CSS Start */
+body {
+    font-family: "DM Sans", sans-serif !important;
+
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+    min-width: 1200px;
+    max-width: 1160px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #999999;
+}
+
+h2 {
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+
+h5 {
+    color: #008ed6 !important;
+    font-weight: 700 !important;
+    font-style: uppercase !important;
+    font-size: 14px !important;
+    margin-bottom: 7px !important;
+    text-transform: uppercase;
+}
+
+/* Global CSS Ending */
+
+/* Header Section Start */
+.header {
+    background: url(../img/banner.png) center center no-repeat;
+    
+    background-size: cover;
+}
+
+.header .nav-item a.nav-link {
+    color: white;
+    font-size: 18px;
+    transition: 0.7s;
+}
+
+.header .nav-item a {
+    position: relative;
+    transition: 0.7s;
+}
+
+.header .nav-item a::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    height: 3px;
+    background: #008ed6;
+    transition: 0.7s;
+    
+}
+
+.header .nav-item a:hover::before {
+    width: 100%;
+    transition: 0.7s;
+}
+
+.header .banner-content {
+    padding-top: 100px;
+}
+
+.header .banner-content .banner-inner h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header .banner-content .banner-inner p {
+    color: #fff;
+}
+
+.header .banner-content .banner-inner button.btn {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+    margin-right: 15px;
+    transition: 0.4s;
+    font-weight: 700;
+
+}
+
+.header .banner-content .banner-inner button.btn.btn-primary {
+    transition: 0.7s;
+}
+
+.header .banner-content .banner-inner button.btn.btn-primary:hover {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.7s;
+
+}
+
+.header .banner-content .banner-inner button.btn.btn-secondary {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.7s;
+}
+
+.header .banner-content .banner-inner button.btn.btn-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+
+.header .banner-content .banner-inner .banner-btn {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+
+/* features Section Start */
+.features {
+    padding-bottom: 50px;
+}
+
+.features .title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features .title .underline {
+    height: 3px;
+    width: 50px;
+    background-color: #008ed6;
+    margin: 25px auto 0;
+    left: 48%;
+    transition: 0.7s;
+}
+
+.features:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.features i {
+    font-size: 30px;
+    color: #008ed6;
+    background-color: white !important;
+    width: 88px;
+    height: 88px;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    padding: 26px;
+    margin-bottom: 20px;
+    transition: 0.7s;
+}
+
+.features i:hover {
+    color: #fff;
+    background-color: #008ed6 !important;
+    transition: 0.7s;
+}
+
+.features p {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* features Section End */
+
+
+/* Details Section Start */
+
+.details .content {
+    padding-top: 50px;
+}
+
+.details .content .underline {
+    width: 55px;
+    height: 3px;
+    background: #008ed6;
+    margin-bottom: 30px;
+    transition: 0.7s;
+}
+
+.details:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.details .content p {
+    padding-bottom: 30px;
+}
+
+.details .content .one {
+    padding-bottom: 20px;
+}
+
+.details .content .one i {
+    color: #008ed6;
+}
+
+/* Details Section End */
+
+/* --------Customize Section start--------- */
+.customize {
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+.customize .pic img {
+    width: 450px;
+    height: 100%;
+}
+
+.customize .underline {
+    width: 55px;
+    height: 3px;
+    background: #008ed6;
+    margin: 30px 0;
+    transition: 0.7s;
+}
+
+.customize:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+/* -------------cutomize Section End------------- */
+
+/* -------testimonials Section Start---------- */
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: url(../img/test.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.testimonials .underline {
+    height: 3px;
+    width: 5%;
+    background: #008ed6;
+    margin: 30px auto 0;
+    transition: 0.7s;
+}
+
+.testimonials:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.testimonials .item {
+    padding-bottom: 50px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* -------testimonials Section End---------- */
+
+/* ----------------call-to-action Start---------- */
+.call-to-action {
+
+    background: #000;
+    padding: 50px 0;
+
+}
+
+.call-to-action .button {
+    color: rgb(255, 255, 255);
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+    margin-right: 15px;
+    transition: 0.4s;
+    font-weight: 700;
+}
+
+.call-to-action button.btn.btn-primary {
+    transition: 0.7s;
+    padding: 10px 20px;
+}
+
+.call-to-action button.btn.btn-primary:hover {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.7s;
+
+}
+
+.call-to-action h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.call-to-action button.btn.btn-secondary {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.7s;
+    margin-left: 15px !important;
+    padding: 10px 20px;
+}
+
+.call-to-action button.btn.btn-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+
+.call-to-action span {
+    color: #999999;
+    font-weight: 600;
+}
+
+/* ----------------call-to-action End---------- */
+
+/* --------------------- Pricing section start--------------- */
+.pricing {
+    padding: 50px 0;
+}
+
+.pricing .heding {
+    padding-bottom: 50px;
+}
+
+.pricing .heding .underline {
+    width: 55px;
+    height: 3px;
+    background: #008ed6;
+    margin: 25px auto 0;
+    transition: 0.7s;
+}
+
+.pricing:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.card-header h3 {
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: 700 !important;
+    transition: 0.7s;
+}
+
+.card-body {
+    padding: 30px 23px;
+    transition: 0.7s;
+}
+
+.card-body h4 {
+    font-size: 40px;
+}
+
+.pricing button.btn.btn-light {
+    padding: 12px 50px;
+    color: #008ed6;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    transition: 0.7s;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card:hover h3 {
+
+    color: #008ed6;
+    transition: 0.7s;
+}
+
+.card:hover .card-body {
+    background-color: #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.card:hover button.btn.btn-light {
+    background-color: #008ed6;
+    color: #fff;
+    transition: 0.7s;
+}
+
+/* --------------------- Pricing section End--------------- */
+
+/* -----------------------Contact Section start------------------------ */
+.contact {
+    padding: 50px 0;
+    background-color: #ededed;
+    text-align: center;
+
+
+}
+
+.contact .underline {
+    width: 55px;
+    height: 3px;
+    background: #008ed6;
+    margin: 25px auto 0;
+    transition: 0.7s;
+}
+
+.contact:hover .underline {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.contact .col-lg-4 {
+    padding: 50px 0;
+}
+
+.contact i {
+    color: #008ed6;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+/* -----------------------Contact comment Section start------------------------ */
+.contact .comment {
+    position: relative;
+    left: 0;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #15141a;
+    padding: 50px 30px;
+    width: 64%;
+    text-align: end;
+    z-index: 1;
+}
+
+.contact .comment input {
+    padding: 15px;
+    width: 100%;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.contact .comment textarea {
+    height: 141px;
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background: #15141a;
+    color: #999999;
+}
+
+.contact .comment .btn-primary {
+    padding: 15px 115px;
+    color: #fff;
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+    transition: 0.7s;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.contact .comment .btn-primary:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
+/* -----------------------Contact Section End------------------------ */
+/* ------------fotter Section Start-------------------- */
+.fotter {
+    background-color: #15141a;
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+.fotter ul {
+    display: flex;
+    justify-content: center;
+}
+
+.fotter ul li a {
+    color: #999999;
+    margin-right: 30px;
+    transition: 0.7s;
+}
+
+.fotter ul li a:hover {
+    color: #008ed6;
+    transition: 0.7s;
+}
+
+/* ------------fotter Section Start-------------------- */
